@@ -736,6 +736,8 @@ transition: transform 1s;
         height: 350px;
         width: 350px;
     }
+ 
+  
 }
 @media (max-width: 991px) {
     .max-width{
@@ -772,13 +774,25 @@ transition: transform 1s;
         margin: 20px 0;
         font-size: 25px;
     }
+   
     .home .home-content .text-1{
-        font-size: 8px;
+
         line-height: 0%;
        
-    
     }
-   
+    .navbar .logo img{
+        margin-top: -4%;
+    }
+    .navbar .logo h2{
+        margin-left: 6%;
+    }
+  
+
+    .home .home-content p{
+        font-size:10px;
+        margin-left: 1.2%;
+        
+    }
     .home .home-content .text-3{
         font-size: 35px;
     }
@@ -793,23 +807,72 @@ transition: transform 1s;
         width: 100%;
     }
     .about .about-content .left{
-        display: flex;
+
         justify-content: center;
         margin: 0 auto 60px;
+        font-size: 10px;
     }
+   
+    
     .about .about-content .right{
         flex: 100%;
     }
-    .services .serv-content .card{
-        width: calc(50% - 10px);
-        margin-bottom: 20px;
+    .cart-row{
+        margin-left: 2%;
+       
     }
-    .skills .skills-content .column,
-    .contact .contact-content .column{
-        width: 100%;
-        margin-bottom: 35px;
+    .cart-items{
+        font-size: 20px;
     }
+    .cart-items img{
+       width: 40%;
+       border-radius: 4px;
+    }
+    .btn-danger{
+
+         margin-bottom: 12%;
+         margin-left: -6%;
+         border-radius: 5px;
+         font-size: 6px;
+         font-weight: bold;
+         padding: 12px 21px;
+    }
+    .cart-quantity-input{
+        font-size: 15px;
+    }
+    .btn-purchase{
+        font-size: 12px;
+        padding: 20px 23%;
+    }
+  
+    .footer{
+        font-size: 20px;
+    }
+    
+    .footer .footer-col-1{
+        margin-left: 16%;
+    }
+    .footer .footer-col-1 h3{
+        margin-left: 2%;
+    }
+    .footer .footer-col-1 .foot{
+        margin-top: -8% ;
+    }
+    .footer .footer-col-2{
+        margin-left: 2%; 
+        margin-top: 1%;
+    }
+    .footer .footer-col-3{
+        margin-left: -3%;
+    }
+    .footer .footer-col-4{
+        margin-left: -2%;
+        margin-top: -1%;
+    }
+   
 }
+
+
 @media (max-width: 690px) {
     .max-width{
         padding: 0 23px;
@@ -823,8 +886,63 @@ transition: transform 1s;
     .home .home-content a{
         font-size: 20px;
     }
-    .services .serv-content .card{
-        width: 100%;
+    .navbar .logo img{
+        margin-top: -4%;
+    }
+    .navbar .logo h2{
+        margin-left: 7%;
+        margin-top: -3%;
+    }
+    .cart-row{
+        margin-left: 2%;
+       
+    }
+    .cart-items{
+        font-size: 10px;
+    }
+    .cart-items img{
+       width: 40%;
+       border-radius: 4px;
+    }
+    .btn-danger{
+
+         margin-bottom: 26%;
+         margin-left: -18%;
+         border-radius: 5px;
+         font-size: 6px;
+         font-weight: bold;
+         padding: 12px 21px;
+    }
+    .cart-quantity-input{
+        font-size: 15px;
+    }
+    .btn-purchase{
+        font-size: 12px;
+        padding: 15px 18%;
+    }
+  
+    .footer{
+        font-size: 10px;
+    }
+    
+    .footer .footer-col-1{
+        margin-left: 22%;
+    }
+    .footer .footer-col-1 h3{
+        margin-left: 15%;
+    }
+    .footer .footer-col-1 .foot{
+        margin-top: -11% ;
+    }
+    .footer .footer-col-2{
+        margin-left: 2%; 
+    }
+    .footer .footer-col-3{
+        margin-left: 2%;
+    }
+    .footer .footer-col-4{
+        margin-left: 2%;
+        margin-top: -8%;
     }
 }
 @media (max-width: 500px) {
@@ -834,26 +952,68 @@ transition: transform 1s;
     .home .home-content .text-3{
         font-size: 27px;
     }
+
     .about .about-content .right .text,
     .skills .skills-content .left .text{
         font-size: 19px;
     }
-    .contact .right form .fields{
-        flex-direction: column;
+    .navbar .logo img{
+        margin-top: -4%;
     }
-    .contact .right form .name,
-    .contact .right form .email{
-        margin: 0;
+    .navbar .logo h2{
+        margin-left: 7%;
+        margin-top: -3%;
     }
-    .right form .error-box{
-       width: 150px;
+    .cart-row{
+        margin-left: 2%;  
+        font-size: 14px;
     }
-    .scroll-up-btn{
-        right: 15px;
-        bottom: 15px;
-        height: 38px;
-        width: 35px;
-        font-size: 23px;
-        line-height: 38px;
+    .cart-items{
+        margin-left: 2%;
+    }
+    .cart-items img{
+       width: 40%;
+       border-radius: 2px;
+       margin-left: -6%;
+    }
+    .btn-danger{
+
+         margin-bottom: 28%;
+         margin-left: -18%;
+         border-radius: 5px;
+         font-size: 6px;
+         font-weight: bold;
+         padding: 13px 18px;
+    }
+    .cart-quantity-input{
+        font-size: 10px;
+    }
+    .btn-purchase{
+        font-size: 12px;
+        padding: 13px 16%;
+    }
+  
+    .footer{
+        font-size: 10px;
+    }
+    
+    .footer .footer-col-1{
+        margin-left: 22%;
+    }
+    .footer .footer-col-1 h3{
+        margin-left: 15%;
+    }
+    .footer .footer-col-1 .foot{
+        margin-top: -11% ;
+    }
+    .footer .footer-col-2{
+        margin-left: 2%; 
+    }
+    .footer .footer-col-3{
+        margin-left: 2%;
+    }
+    .footer .footer-col-4{
+        margin-left: 2%;
+        margin-top: -8%;
     }
 }
