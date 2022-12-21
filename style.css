@@ -104,8 +104,8 @@ section .title{
 }
 .scroll-up-btn{
     position: fixed;
-    height: 90px;
-    width: 90px;
+    height: 30px;
+    width: 30px;
    
     right: 30px;
     bottom: 10%;
@@ -780,13 +780,18 @@ transition: transform 1s;
         line-height: 0%;
        
     }
+ 
+    
+    .scroll-up-btn i{
+        margin-left: 1%;
+    
+    }
     .navbar .logo img{
         margin-top: -4%;
     }
     .navbar .logo h2{
         margin-left: 6%;
     }
-  
 
     .home .home-content p{
         font-size:10px;
@@ -886,6 +891,7 @@ transition: transform 1s;
     .home .home-content a{
         font-size: 20px;
     }
+ 
     .navbar .logo img{
         margin-top: -4%;
     }
